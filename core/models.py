@@ -8,6 +8,6 @@ class People(models.Model):
 
     def __str__(self):
         return self.name.title()
-
-    class Meta:
-        db_table = 'peoples'
+    #
+    # class Meta:
+    #     db_table = 'people'
